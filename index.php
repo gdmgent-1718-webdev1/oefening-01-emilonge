@@ -1,3 +1,7 @@
+<?php
+    $naam = 'Emily';
+    ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +10,6 @@
     <title>Oefening 1 - Emily Ongenaert</title>
 </head>
 <body>
-    <?php
-    $naam = 'Emily';
-    ?>
     <h1>Welkom, <?= $naam ?></h1>
 </body>
 </html>
