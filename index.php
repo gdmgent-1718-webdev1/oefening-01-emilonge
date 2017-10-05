@@ -1,5 +1,8 @@
 <?php
     $naam = 'Emily';
+
+    $string1 = 'Hello';
+    $string2 = 'World';
     ?>
 
 <!DOCTYPE html>
@@ -11,5 +14,6 @@
 </head>
 <body>
     <h1>Welkom, <?= $naam ?></h1>
+    <p><?= $string1 . ' ' . $string2 ?></p>
 </body>
 </html>
